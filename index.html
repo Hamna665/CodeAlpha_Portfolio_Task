@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Myself Hamna. Im currently doing bechalor degree at University of Central Punjab. With a keen interest in web development I aim to create engaging and responsive web applications that make a difference. My portfolio showcases my projects, skills, and dedication to the world of web development. Explore and let's connect!.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="./project1.png" alt="Project 1">
+                <!-- <p>Project 1 Description</p> -->
+            </div>
+            <!-- <div class="gallery-item"> -->
+                <!-- <img src="project2.jpg" alt="Project 2"> -->
+                <!-- <p>Project 2 Description</p> -->
+            <!-- </div> -->
+            <!-- <div class="gallery-item"> -->
+                <!-- <img src="project3.jpg" alt="Project 3"> -->
+                <!-- <p>Project 3 Description</p> -->
+            <!-- </div> -->
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+        </ul>
+      </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
