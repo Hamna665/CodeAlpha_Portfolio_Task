@@ -1,1 +1,1 @@
-# CodeAlpha_Portfolio_Task
+Creating a personal portfolio website is a straightforward yet challenging front-end project. It's a great way to showcase your experience, skills, and expertise, much like a resume. By building your own site, you can present your work and achievements in a unique and professional manner.
